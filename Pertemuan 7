@@ -1,0 +1,165 @@
+/* JavaScript Conditional :
+//Contoh JavaScript Conditional menggunakan if else :
+
+if (kondisi) {
+   //kode program jika kondisi true
+}
+else {
+   //kode program jika kondisi false
+}
+
+let nilaiBen = 98;
+
+if (nilaiBen >= 85) { //kondisi 1
+    console.log("Very Good");
+  } else if (nilaiBen >=70 && nilaiBen <=84) {// kondisi 2
+    console.log("Good");
+  } else if (nilaiBen == 50 && nilaiBen <=69 ) {
+   console.log("Bad");
+  } else {
+    console.log("Very Bad, learn more");
+  }
+  //Outpunya : "Verry Good"
+  
+//Contoh JavaScript Conditional menggunakan switch case
+
+switch (pernyataan) {
+    case kondisi1:
+      // keputusan yang dijalankan ketika kondisi1 tercapai
+      break;
+    case kondisi2:
+      // keputusan yang dijalankan ketika kondisi2 tercapai
+      break;
+    case kondisi3:
+      // keputusan yang dijalankan ketika kondisi3 tercapai
+      break;
+    
+    default:
+      // keputusan yang dijalankan ketika semua kondisi tidak tercapai
+}
+
+let makanan;
+let waktu = "Siang";
+
+switch (waktu){
+    case "Pagi" :
+        makanan = "Sarapan Oatmeaml";
+        break;
+    case "Siang" :
+        makanan = "Makan Spageti";
+        break;
+    case "Malam" :
+        makanan = "Makan Pizza";
+        break;
+    default : 
+        makanan = "Makan Roti";
+}
+
+console.log(makanan);// Outputnnya : "Makan Spageti"
+
+*/
+
+
+/* JavaScript Loop : 
+//Contoh JavaScript Loop menggunakan for loop :
+
+for (pernyataan1; pernyataan2; pernyataan3) {
+    // kode yang akan dijalankan ketika pernyataan2 benar (true)
+  }
+  
+  for (let i = 1; i <= 5; i++) {
+    console.log(i);
+  }
+  /* Outputnya :
+  1
+  2
+  3
+  4
+  5 */ 
+
+  //Contoh Menggunakan for/in loop:
+
+  for (propertiObjek in namaObjek) {
+    // kode yang akan dijalankan
+  }
+const baju = {
+    ukuran : "L",
+    warna : "Hitam",
+    jenis : "Kameja lengan panjang",
+    jumlah : 2
+ };
+ for (x in baju) {
+   console.log(x, ':', baju[x]);
+ }
+
+/* Outputnya :
+ukuran : L
+warna : hitam
+jenis : Kameja lengan panjang
+jumlah : 2 */
+
+ // Contoh menggunakan for/of loop :
+
+for (element of namaVariabel) {
+    // kode yang akan dijalankan
+  }
+
+  const  baju= ["Dress warna putih panjang",
+  "Kaos hitam polos", 
+  "Baju berkerah garis-garis hitam putih"
+];
+
+for (x of baju) {
+ console.log(x);
+}
+
+/* Outputnya :
+Dress warna putih panjang, 
+Kaos hitam polos, 
+Baju berkerah garis-garis hitam putih
+ */
+
+// Contoh menggunakan While loop :
+
+while (kondisi) {
+    // kode yang akan dijalankan ketika kondisi benar (true)
+  }
+
+  let i = 1;
+
+  while (i <= 5) {
+    console.log(i);
+    i++;
+  }
+  
+  /*
+  Output:
+  1
+  2
+  3
+  4
+  5
+  */
+
+//Contoh menggunakan Do while loop : 
+
+do {
+    // kode yang akan dijalankan ketika kondisi benar (true)
+  } while (kondisi);
+
+  let i = 1;
+
+do {
+  console.log(i);
+  i++;
+} while (i <= 5);
+
+/*
+Output:
+1
+2
+3
+4
+5
+*/
+*/
