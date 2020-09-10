@@ -7,9 +7,7 @@ if (kondisi) {
 else {
    //kode program jika kondisi false
 }
-
 let nilaiBen = 98;
-
 if (nilaiBen >= 85) { //kondisi 1
     console.log("Very Good");
   } else if (nilaiBen >=70 && nilaiBen <=84) {// kondisi 2
@@ -58,7 +56,6 @@ switch (waktu){
 console.log(makanan);// Outputnnya : "Makan Spageti"
 
 */
-
 
 /* JavaScript Loop : 
 //Contoh JavaScript Loop menggunakan for loop :
