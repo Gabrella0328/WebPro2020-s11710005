@@ -1,1 +1,17 @@
-
+let total = 0;
+const account = {
+    name : "Gabrella Assa",
+    expenses : []
+};
+function addExpenses(description,amount){
+    account.expenses.push({description : description, amount : amount})
+}
+function getAccountSummary(){
+    account.expenses.forEach(function(totalExpense){
+        total = total + totalExpense.amount
+    })
+    console.log("Total pengeluaran dari "+ account.name, " Rp. "+ total);
+}
+addExpenses('Beli Roti', 20000);
+addExpenses('Bayar Kost', 400000);
+getAccountSummary();
