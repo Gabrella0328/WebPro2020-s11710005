@@ -1,0 +1,24 @@
+//ES5 :
+const yearUntilRetirement=(years, firstName) =>years =retirement - age, firstName ="Andi" 
+   const age = 28;
+   const retirement = 65; 
+    
+    console.log(yearUntilRetirement());
+    if (retirement>0){
+        console.log(firstName + " retirement in "+retirement+" years");
+    } else {
+        console.log(firstName + "is already retired.");
+    }
+    
+  //ES6 :
+  let firstName = "Andi";
+    let age = 28;
+    let retirement = 65;
+
+    let yearUntilRetirement=(years) => years = retirement - age 
+    if (retirement>0){
+                console.log(firstName + " retirement in "+ retirement +" years");
+    } else {
+                console.log(firstName + "is already retired.");
+           }
+    console.log(yearUntilRetirement());
