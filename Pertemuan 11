@@ -17,11 +17,12 @@ return hasil;
 console.log(operasiPenjumlahan(3, 4)); // Output: 7
   
 // Fungsi yang tidak memiliki parameter :
-const namaJenisAnjing = () => {
-const anjing = ["Pug", "Bulldog", "Poodle"];
-    return anjing[Math.floor(Math.random()*(anjing.length))];
+const namaBuah = () => {
+const buah = ["Anggur", "Semangka", "Durian"];
+    return buah[Math.floor(Math.random()*(buah.length))];
 }
-console.log(namaJenisAnjing()); // Output: Pug (hasil random)
+console.log(namaBuah()); 
+// Output: Anggur (hasil random)
 
 //Exercise
 //Convert to ES6 Syntax
