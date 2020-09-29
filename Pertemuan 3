@@ -1,0 +1,9 @@
+let name = "Tim";
+let age = 30;
+let IsMarried = true;
+let jumlahAnak;
+
+console.log(name);
+console.log(age);
+console.log(IsMarried);
+console.log(jumlahAnak); 
