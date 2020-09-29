@@ -1,3 +1,30 @@
+
+function Salam() {
+     return "Selamat siang";
+};
+
+ Arrow function
+ const namaFungsi = (parameter1, parameter2) => {
+};
+const namaFungsiTanpaParameter = () => {
+}
+ // Fungsi dengan parameter :
+const operasiPenjumlahan = (bilangan1, bilangan2) => {
+const hasil =  bilangan1 + bilangan2;
+return hasil;
+ };
+  
+console.log(operasiPenjumlahan(3, 4)); // Output: 7
+  
+// Fungsi yang tidak memiliki parameter :
+const namaJenisAnjing = () => {
+const anjing = ["Pug", "Bulldog", "Poodle"];
+    return anjing[Math.floor(Math.random()*(anjing.length))];
+}
+console.log(namaJenisAnjing()); // Output: Pug (hasil random)
+
+//Exercise
+//Convert to ES6 Syntax
 //ES5 :
 const yearUntilRetirement=(years, firstName) =>years =retirement - age, firstName ="Andi" 
    const age = 28;
