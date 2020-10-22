@@ -1,0 +1,36 @@
+//FUNCTION
+
+//Global
+// const makanan = 'Bakso';
+
+// function namaBakso() {
+//   let bakso = 'Bakso urat';
+//   const harga = 20000;
+//   console.log(makanan);
+//   if (makanan === 'Bakso') {
+//      bakso = 'Bakso tenes';
+//      const harga = 25000;
+//      console.log(makanan); 
+//   }
+//   return bakso;
+// }
+
+// console.log(namaBakso());
+// console.log(makanan); 
+
+//Func Expr
+const penjumlahanbujursangkar = function(a, b)
+{
+    return a*a+b*b;
+};
+console.log(penjumlahanbujursangkar(2,5));
+console.log(penjumlahanbujursangkar(5,7));
+
+console.log(tambah(2,2));
+console.log(kali(5,5))
+function tambah(a,b){
+    return a+b;
+}
+function kali(a,b){
+    return a*b;
+}
