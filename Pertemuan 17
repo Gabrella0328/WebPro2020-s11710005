@@ -1,0 +1,48 @@
+// 1. Contoh Synchronous :
+const second = () =>{
+  console.log('Second')
+  }
+const fist = () => {
+  console.log('First');
+  second();
+  console.log('The End')
+  }
+  first();
+  
+//2. Contoh Asynchronous dengan setTimeout :
+const second = () =>{
+setTimeout(() =>{
+  console.log('Second Async')
+  }, 3000)
+  }
+const fist = () => {
+  console.log('First');
+  second();
+  console.log('The End')
+  }
+  first();
+
+//3. Contoh Callback Hell
+const second = () =>{
+  setTimeout(() =>{
+    console.log('Async 1')
+    const numbers = [1,2,3];
+    setTimeout(id=> {
+      console.log('Async 2')
+      console.log(id)
+      setTimeout(() =>{
+        console.log('Async 3')
+        }, 2000)
+      }, 2000, numbers[1])
+    }, 2000)
+  }
+
+//4. Contoh Promise :
+const getId = new Promise((resolve, reject)=>{
+  const numbers = [1,2,3];
+  setTimeout(()=>{
+  //if success :
+  resolve(numbers)
+  //else or error :
+ }, 2000)
+});
