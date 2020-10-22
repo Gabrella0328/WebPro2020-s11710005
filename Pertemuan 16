@@ -1,0 +1,7 @@
+//Hello.js :
+export const hello = (user) => {
+console.log(`Hello, ${user}`)
+}
+//index.js :
+import { hello } from './Hello.js';
+hello ('Jhon Doe');
